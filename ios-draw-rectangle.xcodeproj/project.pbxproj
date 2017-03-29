@@ -13,6 +13,7 @@
 		AE34706B1E8B1D77005E4F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE34706A1E8B1D77005E4F8D /* Assets.xcassets */; };
 		AE34706E1E8B1D77005E4F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE34706C1E8B1D77005E4F8D /* LaunchScreen.storyboard */; };
 		AE3470761E8B1E58005E4F8D /* MyRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3470751E8B1E58005E4F8D /* MyRectangleView.swift */; };
+		AE3470781E8B2111005E4F8D /* MyTouchDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3470771E8B2111005E4F8D /* MyTouchDrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AE34706D1E8B1D77005E4F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE34706F1E8B1D77005E4F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3470751E8B1E58005E4F8D /* MyRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRectangleView.swift; sourceTree = "<group>"; };
+		AE3470771E8B2111005E4F8D /* MyTouchDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTouchDrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AE34706C1E8B1D77005E4F8D /* LaunchScreen.storyboard */,
 				AE34706F1E8B1D77005E4F8D /* Info.plist */,
 				AE3470751E8B1E58005E4F8D /* MyRectangleView.swift */,
+				AE3470771E8B2111005E4F8D /* MyTouchDrawView.swift */,
 			);
 			path = "ios-draw-rectangle";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				AE3470661E8B1D76005E4F8D /* ViewController.swift in Sources */,
 				AE3470761E8B1E58005E4F8D /* MyRectangleView.swift in Sources */,
+				AE3470781E8B2111005E4F8D /* MyTouchDrawView.swift in Sources */,
 				AE3470641E8B1D76005E4F8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

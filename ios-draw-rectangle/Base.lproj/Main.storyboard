@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,13 +22,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJr-j8-tg3" customClass="MyRectangleView" customModule="ios_draw_rectangle" customModuleProvider="target">
-                                <rect key="frame" x="42" y="183" width="291" height="260"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6Y-KY-AiN" customClass="MyTouchDrawView" customModule="ios_draw_rectangle" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b6Y-KY-AiN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="AYy-zx-cYV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="b6Y-KY-AiN" secondAttribute="bottom" id="MhE-PY-tCF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="b6Y-KY-AiN" secondAttribute="trailing" id="b1y-uR-D9q"/>
+                            <constraint firstItem="b6Y-KY-AiN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tqj-8p-8d5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
