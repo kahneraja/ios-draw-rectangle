@@ -14,6 +14,7 @@
 		AE34706E1E8B1D77005E4F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE34706C1E8B1D77005E4F8D /* LaunchScreen.storyboard */; };
 		AE3470761E8B1E58005E4F8D /* MyRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3470751E8B1E58005E4F8D /* MyRectangleView.swift */; };
 		AE3470781E8B2111005E4F8D /* MyTouchDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3470771E8B2111005E4F8D /* MyTouchDrawView.swift */; };
+		AE34707E1E8C7305005E4F8D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE34707D1E8C7305005E4F8D /* image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AE34706F1E8B1D77005E4F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE3470751E8B1E58005E4F8D /* MyRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRectangleView.swift; sourceTree = "<group>"; };
 		AE3470771E8B2111005E4F8D /* MyTouchDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTouchDrawView.swift; sourceTree = "<group>"; };
+		AE34707D1E8C7305005E4F8D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../Desktop/image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		AE3470621E8B1D76005E4F8D /* ios-draw-rectangle */ = {
 			isa = PBXGroup;
 			children = (
+				AE34707D1E8C7305005E4F8D /* image1.png */,
 				AE3470631E8B1D76005E4F8D /* AppDelegate.swift */,
 				AE3470651E8B1D76005E4F8D /* ViewController.swift */,
 				AE3470671E8B1D76005E4F8D /* Main.storyboard */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE34706E1E8B1D77005E4F8D /* LaunchScreen.storyboard in Resources */,
+				AE34707E1E8C7305005E4F8D /* image1.png in Resources */,
 				AE34706B1E8B1D77005E4F8D /* Assets.xcassets in Resources */,
 				AE3470691E8B1D76005E4F8D /* Main.storyboard in Resources */,
 			);
